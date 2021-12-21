@@ -1,12 +1,22 @@
 *{
     margin:0;
     padding: 0;
+    background-color: #E58E40;
 }
 
+#titulo{
+    text-align: center;
+    color: #873600;
+    margin: 10px ;
+    text-decoration: underline overline;
+    font-family: fantasy;
+    font-size: 5em;
+
+}
 
 .formatacao{
     background-color: #DC7633;
-    color:#ffffff;
+    color:#873600;
 
     /* font-size: 40px; */
     /* % -> tamanho reativo 
@@ -19,11 +29,13 @@
     padding: 10px;
     border: 10px double #D35400;
     font-weight: bold;
+    width: 500px;
+    margin-left: 500px;
 }
 
 .formatacao2{
     background-color: #DC7633;
-    color:#ffffff;
+    color:#873600;
     font-size: 1.5em;
     text-align: center;
     text-decoration: none; 
@@ -31,11 +43,13 @@
     padding: 10px;
     border: 10px double #D35400;
     font-style: italic;
+    width: 500px;
+    margin-left: 500px;
 }
 
 .formatacao3{
     background-color: #DC7633;
-    color:#ffffff;
+    color:#873600;
     font-size: 1.5em;
     text-align: center;
     text-decoration: line-through; 
@@ -44,29 +58,35 @@
     font-family: cursive;
     padding: 10px;
     border: 10px double #D35400;
+    width: 500px;
+    margin-left: 500px;
 }
 
 .formatacao4{
     background-color: #DC7633;
-    color:#ffffff;
+    color:#873600;
     font-size: 1.5em;
     text-align: center;
     text-decoration: none; 
     font-family: cursive;
     padding: 10px;
     border: 10px double #D35400;
-    font-style: italic;
+    font-style:initial;
+    width: 500px;
+    margin-left: 500px;
 }
 
 .formatacao5{
     background-color: #DC7633;
-    color:#ffffff;
+    color:#873600;
     font-size: 1.5em;
     text-align: center;
     text-decoration: none; 
     font-family: cursive;
     padding: 10px;
     border: 10px double #D35400;
-    font-style: italic;
+    font-style: oblique;
+    width: 500px;
+    margin-left: 500px;
 }
 
