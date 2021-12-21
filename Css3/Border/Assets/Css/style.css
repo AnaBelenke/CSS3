@@ -1,0 +1,26 @@
+#conteudo{
+    border-width: 5px 15px 15px 5px;
+    text-align: center;
+    border-color: darkgoldenrod black blue red;
+    border-style: solid dotted dashed outset;
+}
+
+#conteudo2{
+    border: 7px groove red;
+    text-align: center;
+}
+
+#conteudo3{
+    border: 5px dotted red;
+    text-align: center;
+}
+
+#conteudo4{
+    border: 5px dashed red;
+    text-align: center;
+}
+
+#conteudo5{
+    border: 5px double red;
+    text-align: center;
+}

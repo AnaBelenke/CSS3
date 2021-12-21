@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    text-decoration: none;
+}
+
+#topo{
+    background-color: blueviolet;
+    text-align: center;
+
+}
+
+#topo img{
+    width: 50%;
+}
+
+#conteudo {
+    background-color: burlywood;
+}
+
+#rodape {
+    background-color: chocolate;
+}
+
+.assinatura h2{
+    background-color: cornflowerblue;
+}

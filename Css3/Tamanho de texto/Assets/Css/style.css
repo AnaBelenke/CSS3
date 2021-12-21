@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+.formatacao{
+    background-color: #DC7633;
+    color:#ffffff;
+
+    /* font-size: 40px; */
+    /* % -> tamanho reativo 
+        em -> tmanho relativo ao container pai  
+    */
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none; 
+    font-family: cursive;
+    padding: 10px;
+    border: 10px double #D35400;
+    font-weight: bold;
+}
+
+.formatacao2{
+    background-color: #DC7633;
+    color:#ffffff;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none; 
+    font-family: cursive;
+    padding: 10px;
+    border: 10px double #D35400;
+    font-style: italic;
+}
+
+.formatacao3{
+    background-color: #DC7633;
+    color:#ffffff;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: line-through; 
+    /* underline
+    overline */
+    font-family: cursive;
+    padding: 10px;
+    border: 10px double #D35400;
+}
+
+.formatacao4{
+    background-color: #DC7633;
+    color:#ffffff;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none; 
+    font-family: cursive;
+    padding: 10px;
+    border: 10px double #D35400;
+    font-style: italic;
+}
+
+.formatacao5{
+    background-color: #DC7633;
+    color:#ffffff;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration: none; 
+    font-family: cursive;
+    padding: 10px;
+    border: 10px double #D35400;
+    font-style: italic;
+}
+
