@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container-topo{
+    background-image: url('../Img/model_logo.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.links{
+    background-color: #CB4335;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.links  a {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+
+.conteiner-texto {
+    display: flex;
+    flex-direction: column;
+    background-color: #D98880;
+    color: #ffffff;
+    padding: 10px;
+}
+
+#titulo{
+    text-align:justify;
+    color: #ffffff;
+    margin: 10px;;
+    text-decoration: overline underline #F1948A;
+}
+
+.text{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 15px;
+    font-size: 24px;
+    text-align:start;
+    font-family: 'Dancing Script', cursive;
+}
+
+.text img{
+    border-radius: 10%;
+    border: 5px dashed #F1948A;
+    margin: 10px;
+}
+
+footer {
+    background-color: #CB4335;
+    color: #ffffff;
+    text-align: center;
+   padding: 10px;
+
+}
