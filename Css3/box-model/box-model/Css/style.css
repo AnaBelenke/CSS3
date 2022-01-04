@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+    color: red;
+}
+
+/* .conteudo {
+    color: black;
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    background-color: white;
+
+} */
+
+.noticias{
+    width: 920px;
+    /* border: 1px solid white; */
+}
+
+.conteudofloat{
+    color: white;
+    /* border: 1px solid red; */
+    padding: 10px;
+    margin: 15px;
+    float: left;
+    width: 25%;
+}
+
+.img-galeria{
+    float: left;
+    margin: 5px;
+    padding: 5px;
+}
+
+.img-galeria img{
+    border-radius: 50%;
+    filter: invert();
+}
+
+.conteudofloat h3{
+    color: red;
+}
+
+.conteudofloat a {
+    text-decoration: none;
+    color: red;
+
+}
