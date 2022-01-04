@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(16, 94, 211);
+
+}
+#container{
+    background-color: rgb(159, 197, 255);
+    margin: 10px auto;
+    padding-left: 10px;
+}
+
+/* 
+- position: relative -> utilizar propriedades de deslocamento. 
+
+- position: static -> padrão
+
+- position: absolute -> alinhamento baseado no container pai
+para alinhar um elemento absoluto ao conteiner o conteiner precisa ter uma posição 
+senão é alihado ao corpo da página 
+
+-position: fixed -> fixado em relação a janela do navegador 
+
+
+
+*/
