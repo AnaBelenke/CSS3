@@ -1,0 +1,22 @@
+a {
+  padding: 10px;
+  text-decoration: none;
+  margin: 80px 80px;
+}
+
+a:link {
+  color: rgb(60, 211, 55);
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  color: green;
+  background-color: gold;
+}
+
+a:active {
+  color: greenyellow;
+}
