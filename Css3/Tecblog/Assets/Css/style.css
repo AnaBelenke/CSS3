@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #EBECDD;
+}
+
+.container-top {
+  background-color: #F3FF01;
+  text-align: center;
+  padding: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+.menu {
+  padding: 5px;
+  margin: 5px;
+}
+
+#titulo {
+  color: #FFFFFF;
+  font-size: 42px;
+}
+
+.container-top strong {
+  color: #9C9C9A;
+}
+a:link, a:visited {
+  text-decoration: none;
+  margin: 10px;
+  padding: 10px;
+  color: #FFFFFF;
+  font-size: 18px;
+}
+
+a:hover{
+  color: #9C9C9A;
+}
+
+.container-Post{
+  margin: 10px;
+  margin-left: 200px;
+  padding: 10px;
+  width: 650px;
+  color: #8A8B7D;
+
+}
+
+.container-Post h2{
+  color: #F3FF01;
+}
+
+
+.conteiner-canto1 {
+  width: 180px;
+  height: 240px;
+  margin: 5px; 
+  position: absolute;
+  top: 190px;
+  right: 230px;
+  color: #434440;
+  background-color: #C5C5BC;
+}
+
+.titulo-postagem {
+  background-color: #9C9C9A;
+  padding: 5px;
+  color: #434440;
+}
+
+.conteiner-canto1 p {
+  padding: 5px;
+}
+
+.conteiner-canto2{
+  width: 180px;
+  height: 200px;
+  margin: 5px; 
+  position: absolute;
+  top: 450px;
+  right: 230px;
+  background-color: #C5C5BC;
+}
+
+.links-canto{
+  margin: 10px;
+  padding: 10px;
+}
+
+#mensagem-fixa{
+  color: #434440;
+  background-color: #C5C5BC;
+  width: 220px;
+  height: 40px;
+  position: fixed;
+  bottom: 0;
+  right: 80px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #F3FF01;
+}
+
+#mensagem-fixa strong {
+  color: #F3FF01;
+  font-size: 18px;
+}
+
+footer{
+  background-color: #F3FF01;
+  color: #9C9C9A;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 12px;
+  font-family: 'Gill Sans', 'Gill Sans MT';
+  text-align: center;
+
+}
