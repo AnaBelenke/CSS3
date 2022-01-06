@@ -1,0 +1,19 @@
+/* filho direto */
+
+li>a{
+    color: rgb(226, 43, 156);
+    text-decoration: none;
+}
+
+/* irmão do h2 */
+
+/* h2+p{
+    color: cadetblue;
+} */
+
+/* irmão geral */
+
+h2~p{ 
+    color:pink;
+}
+
