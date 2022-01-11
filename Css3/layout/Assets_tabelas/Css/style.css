@@ -3,11 +3,37 @@ body{
     color: rgb(80, 49, 4);
 }
 
+h1 {
+    border: 1px dashed brown;
+    width: 280px;
+}
 table {
     width: 600px;
     border-collapse: separate;
 }
 
 th, td{
-    border: 1px solid rgb(141, 71, 6);
+    padding: 7px;
 }    
+
+th{
+    text-transform: uppercase;
+    border-top: 1px solid rgb(255, 115, 0);
+    border-bottom: 1px solid rgb(170, 81, 8);
+    text-align: left;
+    font-size: 90%;
+    letter-spacing: 0.2em;
+}
+
+tr.alterna{
+    background: #efefef;
+}
+
+tr.style:hover{
+    background: rgb(192, 125, 78);
+}
+
+
+.numero {
+     text-align: right;
+ }
