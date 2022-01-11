@@ -1,0 +1,13 @@
+body{
+    background: burlywood;
+    color: rgb(80, 49, 4);
+}
+
+table {
+    width: 600px;
+    border-collapse: separate;
+}
+
+th, td{
+    border: 1px solid rgb(141, 71, 6);
+}    

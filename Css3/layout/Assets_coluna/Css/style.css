@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    background: url(../Img/coluna.png) repeat-y left top;
+    color: rgb(95, 93, 93);
+    min-width: 720px;
+}
+
+#marca{
+    height: 200px;
+    background: #225992 url(../Img/cabecalho2.jpg) no-repeat bottom;
+    text-align: center;
+    line-height: 200px;   
+}
+
+#conteudo {
+    width: 75%;
+    float: right;
+}
+
+#conteudo-principal{
+    float: left;
+    width: 60%;
+    padding: 10px;
+    text-align: justify;
+}
+
+#conteudo-principal img {
+    width: 90%;
+    margin: 2% auto;
+    max-width: 600px;
+}
+
+#conteudo-principal p, h2 {
+    text-align: justify;
+}
+
+
+#conteudo-secundario{
+    float: right;
+    width: 30%;
+    background: #d1d1d1;
+    text-align: left;
+    padding: 5px;
+}
+
+#conteudo-secundario p {
+    padding-left: 10px;
+}
+
+#conteudo-secundario h2 {
+    text-align: center;
+}
+
+#navegacao{
+    width: 20%;
+    float: left;
+}
+
+#navegacao ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 5px;
+    text-align: left;
+} 
+
+#navegacao ul a{
+    width: 200px;
+    height: 40px;
+    display: block;
+    color: rgb(95, 93, 93);
+    text-decoration: none;
+    line-height: 40px;
+}
+
+#navegacao a:hover{
+    color: #9E9E9E;
+}
+
+#rodape{
+    clear: both;
+    background: #9E9E9E;
+    padding: 5px;   
+}
+
