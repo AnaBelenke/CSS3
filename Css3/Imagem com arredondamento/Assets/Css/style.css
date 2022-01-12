@@ -1,5 +1,18 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background: #643d87 url(../Img/fundo.jpg) no-repeat top center;
+}
+
+.caixa{
+    width: 400px;
+    background: #DEDEDE url(../Img/topo.png) no-repeat left top ;
+}
+
+.caixa h2{
+    padding: 10px 20px 0 20px;
+}
+
+.caixa p {
+    padding: 0 20px 20px 20px;
+    background: url(../Img/baixo2.png) no-repeat left bottom;
 }
 
