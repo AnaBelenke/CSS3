@@ -11,7 +11,7 @@ body {
 }
 
 #container {
-  width: 70%;
+  width: 800px;
   margin: 0 auto;
 }
 
@@ -74,4 +74,79 @@ body.fotos #navegacao a#fotos
   color: #fff;
   background: #de003e;
   cursor: text;
+}
+
+#conteudo {
+  margin-top: 60px;
+  background: #F5F5F5;
+  float: left;
+}
+
+#lateral{
+  width: 180px;
+  float: left;
+  margin:  0 0 20px -750px;
+}
+
+#primario {
+  width: 270px;
+  float: left;
+  margin: 0 0 20px 195px;
+}
+
+#duas-colunas #primario {
+  width: 555px;
+}
+
+#uma-coluna #primario {
+  width: 750px;
+  margin: 0 0 20px 0px;
+}
+
+#secundario{
+  width: 270px;
+  float: left;
+  margin: 0 0 20px 15px;
+}
+
+#caixa{
+  margin: 10px 0;
+  padding: 5px;
+  background: #f3f3f3 url(../Img/fundo-caixa.png); 
+}
+
+.caixa-conteudo {
+  background: #FFF;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.caixa-conteudo ul a{
+  font-size: 0.9em;
+  display: block;
+  padding: 0.5em 1.5em;
+  line-height: 2.1em;
+  text-decoration: none;
+  color: #294c71;
+}
+
+.caixa-conteudo a:hover{
+  color: #b10333;
+}
+
+h2{
+  background: #294c71;
+  font-size: 1em;
+  color: #FFF;
+  padding: 5px 0;
+  text-align: center;
+}
+
+
+
+#rodape{
+  background: #294c71;
+  clear: both;
+  padding: 20px;
+  color: #fff;
 }
