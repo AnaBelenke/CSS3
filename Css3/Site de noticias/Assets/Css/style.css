@@ -165,6 +165,22 @@ input.submit {
   padding: 5px;
 }
 
+img{
+  border: 2px solid #DFDFDF;
+}
+
+h3 {
+  text-transform: uppercase;
+  display: inline;
+  font-size: 0.8em;
+  padding: 3px;
+}
+
+.destaque h3 {
+  background-color: #b10333;
+  color: #FFF;
+}
+
 
 
 #rodape{
