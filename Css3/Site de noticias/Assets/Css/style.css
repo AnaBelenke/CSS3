@@ -45,7 +45,7 @@ ul {
   float: left;
 }
 
-#topo ul a{
+#topo ul a {
   font-size: 0.9em;
   display: block;
   padding: 0.5em 1.5em;
@@ -55,11 +55,11 @@ ul {
   background: url(../Img/divisor.png) no-repeat left center;
 }
 
-#topo ul .primeiro a{
+#topo ul .primeiro a {
   background: none;
 }
 
-#topo ul a:hover{
+#topo ul a:hover {
   color: #69001d;
 }
 
@@ -69,8 +69,7 @@ body.internacional #navegacao a#internacional,
 body.economia #navegacao a#economia,
 body.saude #navegacao a#saude,
 body.ciencias #navegacao a#ciencias,
-body.fotos #navegacao a#fotos 
-{
+body.fotos #navegacao a#fotos {
   color: #fff;
   background: #de003e;
   cursor: text;
@@ -78,22 +77,22 @@ body.fotos #navegacao a#fotos
 
 #conteudo {
   margin-top: 60px;
-  background: #F5F5F5;
+  background: #f5f5f5;
   float: left;
 }
 
-#conteudo h2{
+#conteudo h2 {
   background: #294c71;
   font-size: 1em;
-  color: #FFF;
+  color: #fff;
   padding: 5px 0;
   text-align: center;
 }
 
-#lateral{
+#lateral {
   width: 180px;
   float: left;
-  margin:  0 0 20px -750px;
+  margin: 0 0 20px -750px;
 }
 
 #primario {
@@ -102,7 +101,7 @@ body.fotos #navegacao a#fotos
   margin: 0 0 20px 195px;
 }
 
-#secundario{
+#secundario {
   width: 270px;
   float: left;
   margin: 0 0 20px 15px;
@@ -110,6 +109,7 @@ body.fotos #navegacao a#fotos
 
 #duas-colunas #primario {
   width: 555px;
+  
 }
 
 #uma-coluna #primario {
@@ -117,19 +117,19 @@ body.fotos #navegacao a#fotos
   margin: 0 0 20px 0px;
 }
 
-#caixa{
+#caixa {
   margin: 10px 0;
   padding: 5px;
-  background: #f3f3f3 url(../Img/fundo-caixa.png); 
+  background: #f3f3f3 url(../Img/fundo-caixa.png);
 }
 
 .caixa-conteudo {
-  background: #FFF;
+  background: #fff;
   padding: 5px;
   margin-top: 5px;
 }
 
-.caixa-conteudo ul a{
+.caixa-conteudo ul a {
   font-size: 0.9em;
   display: block;
   padding: 0.5em 1.5em;
@@ -138,13 +138,13 @@ body.fotos #navegacao a#fotos
   color: #294c71;
 }
 
-.caixa-conteudo a:hover{
-  background: #F9F9F9 url(../Img/marcador.png) no-repeat left center;
+.conteudo a:hover {
+  background: #f9f9f9 url(../Img/marcador.png) no-repeat left center;
   padding-left: 20px;
   color: #b10333;
 }
 
-label{
+label {
   display: block;
   cursor: pointer;
 }
@@ -154,19 +154,19 @@ input {
   padding: 5px;
   width: 125px;
   font-size: 0.9em;
-  background: #FFF;
+  background: #fff;
 }
 
 input.submit {
   width: 80px;
-  color: #FFF;
+  color: #fff;
   background: #b10333;
   border: 2px solid #870529;
   padding: 5px;
 }
 
-img{
-  border: 2px solid #DFDFDF;
+img {
+  border: 2px solid #dfdfdf;
 }
 
 h3 {
@@ -178,13 +178,45 @@ h3 {
 
 .destaque h3 {
   background-color: #b10333;
-  color: #FFF;
+  color: #fff;
+}
+
+#lista-noticias li {
+  padding: 2px;
+  border-bottom: 1px solid #ccc;
+  height: 65px;
+}
+
+#lista-noticias li a img {
+  float: left;
+  margin: 5px 0;
+}
+
+#lista-noticias li a {
+  text-decoration: none;
+}
+
+#lista-noticias li a h3 {
+  padding: 0;
+  color: #3e7ab9;
+}
+
+#lista-noticias li a p {
+  font-size: 0.7em;
+  line-height: 9px;
+}
+
+#lista-noticias li:hover {
+  background: #eee;
+  cursor: pointer;
 }
 
 
 
-#rodape{
+#rodape {
   background: #294c71;
+  width: 100%;
+  text-align: center;
   clear: both;
   padding: 20px;
   color: #fff;
